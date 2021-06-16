@@ -1,0 +1,174 @@
+body {
+    background-color: #2222FF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 900px;
+}
+
+main {
+    background-color: #fefefe;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    
+    border-radius: 10px;
+    box-shadow: 0 5px 30px black;
+
+    width: 630px;
+    height: 750px;
+}
+
+main h1 {
+    color: #2222FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    
+    margin-bottom: 40px;
+}
+
+main h2 {
+    color: #2222FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    background-color: #C4C4C4;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    padding-left: 20px;
+
+    margin-bottom: 20px;
+
+    width: 500px;
+    height: 40px;
+}
+
+input::placeholder {
+    color: grey;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+input[type= 'file'] {
+    display: none;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #C4C4C4;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+
+    height: 150px;
+
+    transition: 0.5s;
+}
+
+#upload:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+#upload img {
+    width: 110px;
+    height: 100px;
+}
+
+#upload p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+
+    margin-top: 10px;
+}
+
+button {
+    background-color: #2222FF;
+
+    color: #fefefe;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+
+    border-radius: 30px;
+    border: none;
+
+    width: 120px;
+    height: 30px;
+
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+
+    box-shadow: 0 0 14px grey;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 500px;
+    }
+
+    form input {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 300px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form input {
+        width: 200px;
+    }
+
+    #upload {
+        width: 220px;
+    }
+}

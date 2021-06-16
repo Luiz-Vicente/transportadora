@@ -1,0 +1,75 @@
+#empresas {
+    background-color: #F5F5F5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 330px;
+}
+
+.titulo-empresas {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: #808080;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.logos-embarcadoras {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: auto;
+    height: 200px;
+}
+
+.linha-1, .linha-2 {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.lg, .consul, .eletrolux, .brastemp {
+    width: 200px;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .linha-1, .linha-2 {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #empresas {
+        height: 500px;
+        text-align: center;
+    }
+    .titulo-empresas {
+        font-size: 30px;
+    }
+
+    .linha-2 {
+        display: none;
+    }
+
+    .linha-1, .linha-2 {
+        flex-direction: column;
+        width: 200px;
+        height: 400px;
+    }
+
+    .eletrolux {
+        padding-top: 50px;
+    }
+
+    .brastemp {
+        padding-bottom: 50px;
+    }
+}

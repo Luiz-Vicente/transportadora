@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <img class="botao-abrir" onclick="abrirMenu()" src="./botao-de-menu-de-tres-linhas-horizontais.png" alt="">
+        <h1>Administrador</h1>
+    </header>
+
+    <nav id="menu">
+        <h1 onclick="fecharMenu()">- Fechar</h1>
+        <ul>
+            <li><h2 onclick="abrirEmbarcadora()">Embarcadoras</h2></li>
+            <li><h2 onclick="abrirTransportadora()">Transportadora</h2></li>
+            <li><h2 onclick="abrirAutonomo()">Autônomo</h2></li>
+            <li><h2 onclick="abrirParceiro()">Parceiros</h2></li>
+        </ul>
+        <a href="">Sair</a>
+    </nav>
+
+    <main id="conteudo">
+        <div id="embarcadora">
+            <h1>Embarcadoras</h1>
+            <input type="text" placeholder="Digite o nome da Embarcadora">
+
+            <div class="info-conteudo">
+                <h2>Nome Embarcadora</h2>
+                <p>CNPJ</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+            <div class="info-conteudo">
+                <h2>Nome Embarcadora</h2>
+                <p>CNPJ</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+            <div class="info-conteudo">
+                <h2>Nome Embarcadora</h2>
+                <p>CNPJ</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+            <div class="info-conteudo">
+                <h2>Nome Embarcadora</h2>
+                <p>CNPJ</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+            <div class="info-conteudo">
+                <h2>Nome Embarcadora</h2>
+                <p>CNPJ</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+            <div class="info-conteudo">
+                <h2>Nome Embarcadora</h2>
+                <p>CNPJ</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+            <div class="info-conteudo">
+                <h2>Nome Embarcadora</h2>
+                <p>CNPJ</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+            <div class="info-conteudo">
+                <h2>Nome Embarcadora</h2>
+                <p>CNPJ</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+        </div>
+        <div id="transportadora">
+            <h1>Transportadoras</h1>
+            <input type="text" placeholder="Digite o nome da Transportadora">
+
+            <div class="info-conteudo">
+                <h2>Nome Transportadora</h2>
+                <p>CNPJ</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+        </div>
+        <div id="autonomo">
+            <h1>Transportadores Autônomos</h1>
+            <input type="text" placeholder="Digite o nome do Transportador Autônomo">
+
+            <div class="info-conteudo">
+                <h2>Nome Transportador autônomo</h2>
+                <p>CNPJ</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+        </div>
+        <div id="parceiro">
+            <h1>Parceiros</h1>
+            <input type="text" placeholder="Digite o nome do Parceiro">
+
+            <div class="info-conteudo">
+                <h2>Nome Parceiro</h2>
+                <p>CNPJ</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/link.js"></script>
+    <script src="./js/pag.js"></script>
+</body>
+</html>

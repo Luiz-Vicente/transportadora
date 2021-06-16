@@ -1,0 +1,171 @@
+main {
+    position: relative;
+    top: 100px;
+    
+    background-color: #fefefe;
+
+    padding: 20px;
+    margin-left: 14%;
+    
+    border-radius: 10px;
+    transition: margin-left 0.3s;
+    font-family: "Lato", sans-serif;
+
+    width: 70%;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+main input::placeholder {
+    text-align: center;
+    border: none;
+    color: grey;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.info-conteudo {
+    margin-top: 15px;
+    width: 90%;
+    border-bottom: 3px solid #808080;
+}
+
+.info-conteudo h4 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.info-conteudo p {
+    margin-bottom: 5px;
+}
+
+#contratar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encontrar-transportadora {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.encontrar-transportadora input {
+    background-color: #C4C4C4;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    padding-left: 20px;
+    margin-bottom: 40px;
+
+    height: 35px;
+    width: 300px;
+}
+
+.encontrar-transportadora button {
+    background-color: #1C005B;
+
+    color: #fefefe;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    height: 35px;
+    width: 70px;
+}
+
+#viagem {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transportadora-contratada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+}
+
+#viagem input {
+    background-color: #C4C4C4;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    padding-left: 20px;
+    margin-bottom: 15px;
+
+    height: 35px;
+    width: calc(60% - 20px);
+}
+
+.quantidade input{
+    width: 40px !important;
+}
+
+.quantidade label {
+    color: grey;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+
+    margin-right: 30px;
+}
+
+#viagem button {
+    background-color: #1C005B;
+
+    color: #fefefe;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    height: 35px;
+    width: 60%;
+}
+
+#sinistro {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}

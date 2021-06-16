@@ -1,0 +1,151 @@
+footer {
+    background-color: #263238;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #fefefe;
+
+    width: 100%;
+    height: 430px;
+}
+
+footer a {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.box-rodape {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 50px;
+    border-bottom: 1px solid #fefefe;
+
+    width: 1000px;
+}
+
+.transportadora {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 300px;
+    height: 250px;
+}
+
+.transportadora, .sobre, .legal {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-rodape {
+    margin-bottom: 30px;
+}
+
+.redes-sociais {
+    width: 130px;
+    margin-right: 70px;
+    margin-top: 40px;
+}
+
+.icone-rede-social {
+    width: 40px;
+}
+
+.sobre, .legal {
+    width: 250px;
+    height: 250px;
+}
+
+.sobre h2, .legal h2 {
+    font-size: 40px;
+    font-weight: 500;
+
+    margin-bottom: 20px;
+}
+
+.sobre a, .legal a, .descricao-transportadora{
+    color: #808080;
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.sobre p, .legal p {
+    margin-bottom: 30px;
+}
+
+.final-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final-rodape span {
+    text-align: center;
+    line-height: 4;
+    
+    border-bottom: 1px solid #fefefe;
+
+    width: 1000px;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        height: auto;
+    }
+    
+    .box-rodape {
+        flex-wrap: wrap;
+        width: 600px;
+    }
+
+    .transportadora {
+        width: 768px;
+        height: 210px;
+    }
+
+    .sobre, .legal {
+        height: 180px;
+    }
+    
+    .sobre h2, .legal h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .sobre p, .legal p {
+        margin-bottom: 15px;
+    }
+
+    .final-rodape span {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box-rodape {
+        align-items: center;
+        flex-direction: column;
+
+        width: auto;
+    }
+
+    .transportadora {
+        margin-bottom: 30px;
+    }
+
+    .transportadora, .sobre {
+        width: 250px;
+        height: 250px;
+    }
+
+    .sobre, .legal {
+        width: 250px;
+        height: 180px;
+    }
+
+    .final-rodape span {
+        width: auto;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embarcadora</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <img class="botao-abrir" onclick="abrirMenu()" src="./botao-de-menu-de-tres-linhas-horizontais.png" alt="">
+        <h1>Embarcadora</h1>
+    </header>
+
+    <nav id="menu">
+        <h1 onclick="fecharMenu()">- Fechar</h1>
+        <ul>
+            <li><h2 onclick="abrirContratar()">Contratar</h2></li>
+            <li><h2 onclick="abrirViagem()">Pedir viagem</h2></li>
+            <li><h2 onclick="abrirSinistro()">Sinistros</h2></li>
+        </ul>
+        <a href="">Sair</a>
+    </nav>
+
+    <main id="conteudo">
+        <div id="contratar">
+            <h2>Contratar Transportadora</h2>
+            <div class="encontrar-transportadora">
+                <input type="text" name="" id="" placeholder="Digite o nome da Transportadora">
+                <button type="submit">Enviar</button>
+                <input type="text" name="" id="" placeholder="Digite o CNPJ da Transportadora">
+                <button type="submit">Enviar</button>
+            </div>
+
+            <div class="info-conteudo">
+                <h4>Nome Transportadora</h4>
+                <p>CNPJ</p>
+                <p>Telefone</p>
+                <p>Endereço da empresa</p>
+                <p>Contrato Social</p>
+            </div>
+        </div>
+
+        <div id="viagem">
+            <h2>Transportadoras Contratadas</h2>
+
+            <div class="transportadora-contratada">
+                <h3>Nome Transportadora</h3>
+                <div class="quantidade"><label for="qntd">Qntd. de caminhões necessários</label><input type="text" name="qntd" id="qntd"></div>
+                <input type="text" name="" id="" placeholder="Endereço de partida">
+                <input type="text" name="" id="" placeholder="Endereço de entrega">
+                <button type="submit">Enviar</button>
+            </div>
+        </div>
+
+        <div id="sinistro">
+            <h2>Sinistros</h2>
+
+            <div class="info-conteudo">
+                <h3>Boletins de ocorrência</h3>
+                <h4>Naturesa</h4>
+                <p>N°</p>
+                <p>NF</p>
+                <p>Motorista</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/link.js"></script>
+    <script src="./js/pag.js"></script>
+</body>
+</html>

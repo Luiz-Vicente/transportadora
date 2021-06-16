@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar-me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
+</head>
+<body>
+
+    <main>
+        <form method="POST" action="./php/autentica.php">
+            <h1>Cadastro</h1>
+            <input placeholder="Nome da Empresa" type="text">
+            <input placeholder="CNPJ" type="text">
+            <input placeholder="Endereço da Empresa" type="text">
+            <input type="file" id="input-upload" accept="application/pdf">
+            <div id="upload">
+                <img src="./img/upload.png" alt="" id="icone-upload">
+                <p>Cópia do contrato social</p>
+            </div>
+
+            <h2>Escolha uma senha</h2>
+            <input placeholder="Senha" type="text">
+            <input placeholder="Repita a sua senha" type="text">
+            <button type="submit">Cadastrar-me</button>
+        </form>
+    </main>
+
+    <script src="./js/upload.js"></script>
+</body>
+</html>

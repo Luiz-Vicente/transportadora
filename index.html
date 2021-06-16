@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportadora</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./recursos/css/nav.css">
+    <link rel="stylesheet" href="./recursos/css/cabecalho.css">
+    <link rel="stylesheet" href="./recursos/css/planos.css">
+    <link rel="stylesheet" href="./recursos/css/vantagens.css">
+    <link rel="stylesheet" href="./recursos/css/empresas.css">
+    <link rel="stylesheet" href="./recursos/css/anuncios.css">
+    <link rel="stylesheet" href="./recursos/css/duvidas.css">
+    <link rel="stylesheet" href="./recursos/css/rodape.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="" alt="Logo da (empresa)">
+
+        <div class="indexadores-cabecalho">
+            <ul>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#vantagens">Vantagens</a></li>
+                <li><a href="#anuncios">Descontos</a></li>
+                <li><a href="#duvidas">Faq</a></li>
+            </ul>
+        </div>
+            
+        <div class="dropdown">
+            <img src="./recursos/img/botao-de-menu-de-tres-linhas-horizontais.png" alt="">
+            <div class="dropdown-content">
+                <a class="botao-cabecalho" onclick="redirecionarCadastro()">Cadastrar-me</a>
+            <a class="botao-cabecalho" onclick="redirecionarLogin()">Entrar</a>
+            </div>
+        </div>
+
+        <div class="botoes-cabecalho">
+            <a class="botao-cabecalho" onclick="redirecionarCadastro()">Cadastrar-me</a>
+            <a class="botao-cabecalho" onclick="redirecionarLogin()">Entrar</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="texto-cabecalho">
+            <div class="texto-principal-cabecalho">
+                <span>Transporte de carga </span><span class="destaque-texto-cabecalho">segura</span>
+                <p>A visualização em tempo real torna o transporte muito mais seguro!</p>
+            </div>
+        </div>
+    </header>
+
+    <main id="planos">
+        <h1 class="titulo-planos">Escolha o melhor plano para <span class="destaque-titulo-planos">você:</span></h1>
+
+        <div class="cartoes">
+            <div class="cartao">
+                <h1 class="titulo-cartao titulo-embarcadora">Embarcador</h1>
+                <p class="descricao-cartao">Tenha acesso as transportadoras cadastradas e contrate aquela que você
+                    confia</p>
+                <div class="preco">
+                    <span>ANUAL </span><span class="preco-cartao">R$ 150,00</span><br>
+                    <span>MENSAL </span><span class="preco-cartao">R$ 15,00</span>
+                </div>
+            </div>
+
+            <div class="cartao">
+                <h1 class="titulo-cartao titulo-transportadora">Transportadora</h1>
+                <p class="descricao-cartao">Para grandes negócios o plano transportadora. Nossa equipe cadastrará toda a
+                    sua frota</p>
+                <div class="preco">
+                    <span>ANUAL </span><span class="preco-cartao">R$ 150,00</span><br>
+                    <span>MENSAL </span><span class="preco-cartao">R$ 15,00</span>
+                </div>
+            </div>
+
+            <div class="cartao">
+                <h1 class="titulo-cartao titulo-transportador-autonomo">Transportador autônomo</h1>
+                <p class="descricao-cartao">Fique dísponivel para centenas de embarcadoras e aumente seus clientes</p>
+                <div class="preco">
+                    <span>ANUAL </span><span class="preco-cartao">R$ 150,00</span><br>
+                    <span>MENSAL </span><span class="preco-cartao">R$ 15,00</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="vantagens">
+        <h1>Vantagens</h1>
+        <div class="colunas-vantagens">
+            <div class="coluna-vantagens-esquerda">
+                <div class="vantagem">
+                    <img src="./recursos/img/icones-vantagens/de-volta-no-tempo.svg"
+                        alt="Icone vazado branco de um relógio representando controle em tempo real">
+                    <h2>Controle em tempo real da carga</h2>
+                </div>
+
+                <div class="vantagem">
+                    <img src="./recursos/img/icones-vantagens/aplicativo-movel.svg"
+                        alt="Icone vazado branco de um relógio representando controle em tempo real">
+                    <h2>Aplicadivo para Android</h2>
+                </div>
+
+                <div class="vantagem">
+                    <img src="./recursos/img/icones-vantagens/agil.svg"
+                        alt="Icone vazado branco de um relógio representando controle em tempo real">
+                    <h2>Agilidade no serviço</h2>
+                </div>
+
+                <div class="vantagem">
+                    <img src="./recursos/img/icones-vantagens/desconto.svg"
+                        alt="Icone vazado branco de um relógio representando controle em tempo real">
+                    <h2>Desconto em parceiros</h2>
+                </div>
+            </div>
+
+            <div class="coluna-vantagens-direita">
+                <div class="vantagem">
+                    <img src="./recursos/img/icones-vantagens/contorno-de-lampada.svg"
+                        alt="Icone vazado branco de um relógio representando controle em tempo real">
+                    <h2>Experiência na área</h2>
+                </div>
+
+                <div class="vantagem">
+                    <img src="./recursos/img/icones-vantagens/interface-ux.svg"
+                        alt="Icone vazado branco de um relógio representando controle em tempo real">
+                    <h2>Painel intuitivo para o usuário</h2>
+                </div>
+
+                <div class="vantagem">
+                    <img src="./recursos/img/icones-vantagens/seguro.svg"
+                        alt="Icone vazado branco de um relógio representando controle em tempo real">
+                    <h2>Seus dados estão seguros</h2>
+                </div>
+
+                <div class="vantagem">
+                    <img src="./recursos/img/icones-vantagens/tampao-da-policia.svg"
+                        alt="Icone vazado branco de um relógio representando controle em tempo real">
+                    <h2>Sinistros diretamente na plataforma</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="empresas">
+        <h1 class="titulo-empresas">Empresas que acreditam:</h1>
+
+        <div class="logos-embarcadoras">
+            <div class="linha-1">
+                <img class="lg" src="./recursos/img/embarcadoras/brastemp-logo.png" alt="">
+                <img class="consul" src="./recursos/img/embarcadoras/brastemp-logo.png" alt="">
+                <img class="consul" src="./recursos/img/embarcadoras/brastemp-logo.png" alt="">
+            </div>
+
+            <div class="linha-2">
+                <img class="eletrolux" src="./recursos/img/embarcadoras/brastemp-logo.png" alt="">
+                <img class="brastemp" src="./recursos/img/embarcadoras/brastemp-logo.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="anuncios">
+        <h1 class="titulo-descontos">Confira os descontos:</h1>
+
+        <div class="carrosel">
+            <img class="selecionado" src="./recursos/img/imagens-livres/caminhao-na-estrada.jpg" alt="">
+            <img src="./recursos/img/imagens-livres/traseira-caminhao.jpg" alt="">
+            <img src="./recursos/img/imagens-livres/caminhao-vermelho-deserto.jpg" alt="">
+            <img src="./recursos/img/imagens-livres/caminhoes-acostamento-pb.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="duvidas">
+        <div class="box-faq">
+            <img class="icone-duvidas" src="./recursos/img/Questions-rafiki.png" alt="">
+
+            <div class="box-perguntas">
+                <h1 class="titulo-faq">Dúvidas?</h1>
+                
+                <div class="faq">
+                    <div class="pergunta">
+                        <h3>+ Pergunta</h3>
+                    </div>
+
+                    <div class="resposta">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat diam facilisis, ornare neque eu, varius sapien. Donec eu lectus nec nulla imperdiet condimentum.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq">
+                    <div class="pergunta">
+                        <h3>+ Pergunta</h3>
+                    </div>
+
+                    <div class="resposta">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat diam facilisis, ornare neque eu, varius sapien. Donec eu lectus nec nulla imperdiet condimentum.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="pergunta">
+                        <h3>+ Pergunta</h3>
+                    </div>
+
+                    <div class="resposta">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat diam facilisis, ornare neque eu, varius sapien. Donec eu lectus nec nulla imperdiet condimentum.
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="rodape">
+        <div class="box-rodape">
+            <div class="transportadora">
+                <img class="logo-rodape" src="" alt="Logo da (empresa)">
+                <p class="descricao-transportadora">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat diam facilisis, ornare neque eu, varius sapien.</p>
+
+                <div class="redes-sociais">
+                    <a href=""><img class="icone-rede-social" src="./recursos/img/icones-redes-sociais/linkedin.png" alt=""></a>
+                    <a href=""><img class="icone-rede-social" src="./recursos/img/icones-redes-sociais/facebook.png" alt=""></a>
+                    <a href=""><img class="icone-rede-social" src="./recursos/img/icones-redes-sociais/instagram.png" alt=""></a>
+                </div>
+            </div>
+
+                <div class="sobre">
+                    <h2>Sobre nós</h2>
+                    <p><a href="">Sobre a (Empresa)</a></p>
+                    <p><a href="">Fale conosco</a></p>
+                    <p><a href="">Seja um parceiro</a></p>
+                </div>
+
+                <div class="legal">
+                    <h2>Legal</h2>
+                    <p><a href="">Direitos de imagem</a></p>
+                    <p><a href="">Política de privacidade</a></p>
+                    <p><a href="">Termos de uso</a></p>
+                </div>
+        </div>
+
+        <div class="final-rodape">
+            <span>Desenvolvido por <a href="https://www.instagram.com/eu_sou_o_luiz/">@eu_sou_o_luiz</a></span>
+            <span>© (Empresa) - Todos os direitos reservados</span>
+        </div>
+    </footer>
+
+    <script src="./recursos/js/carrosel.js"></script>
+    <script src="./recursos/js/duvidas.js"></script>
+    <script src="./recursos/js/redireciona-cadastro.js"></script>
+    <script src="./recursos/js/redireciona-login.js"></script>
+</body>
+</html>
