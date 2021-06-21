@@ -46,29 +46,48 @@ main input::placeholder {
     font-family: 'Lato', sans-serif;
 }
 
-#caminhao {
-    display: none;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-#viagens {
+#caminhoes {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-#autonomo {
+.caixa-topo-caminhoes {
+    display: flex;
+    align-items: center;
+}
+
+.caixa-topo-caminhoes h2 {
+    font-size: 20px;
+    color: grey;
+    align-items: flex-end;
+
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+#add-caminhao {
+    display: none;
+}
+
+#viagens {
     display: none;
     align-items: center;
     flex-direction: column;
 }
 
-#parceiro {
+#responde-viagem {
+    display: none;
+}
+
+#sinistros {
     display: none;
     align-items: center;
     flex-direction: column;
+}
+
+#add-sinistro {
+    display: none;
 }
 
 input:focus {

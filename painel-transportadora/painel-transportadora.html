@@ -21,33 +21,65 @@
     <nav id="menu">
         <h1 onclick="fecharMenu()">- Fechar</h1>
         <ul>
-            <li><h2 onclick="abrirCadastrar()">Cadastrar</h2></li>
-            <li><h2 onclick="abrirViagem()">Viagens</h2></li>
-            <li><h2 onclick="abrirSinistro()">Sinistros</h2></li>
+            <li><h2 onclick="abrirCaminhoes()">Cadastrar</h2></li>
+            <li><h2 onclick="abrirViagens()">Viagens</h2></li>
+            <li><h2 onclick="abrirSinistros()">Sinistros</h2></li>
         </ul>
         <a href="">Sair</a>
     </nav>
 
     <main id="conteudo">
-        <div id="caminhao">
-            <h1>Caminhões</h1>
+        <div id="caminhoes">
+            <div class="caixa-topo-caminhoes">
+                <h1>Caminhões</h1>
+                <h2 onclick="abrirAddcaminhao()">Adicionar</h2>
+            </div>
             <input type="text" placeholder="Digite a placa do caminhão">
 
             <div class="info-conteudo">
                 <h2>Placa</h2>
-                <p>Motorista</p>
-                <p>CNH</p>
-                <p>Cor</p>
-                <p>Porte</p>
+                <p>Motorista:</p>
+                <p>CNH:</p>
+                <p>Cor:</p>
+                <p>Porte:</p>
             </div>
         </div>
 
+        <div id="add-caminhao">
+            <p onclick="fecharAddcaminhao()">voltar pra caminhões</p>
+        </div>
+
         <div id="viagens">
-            <h2>Solicitações de viagens</h2>
+            <div class="caixa-topo-caminhoes">
+                <h1>Solicitações de viagens</h1>
+                <h2 onclick="abrirRespondeviagem()">Adicionar</h2>
+            </div>
 
             <div class="info-conteudo">
                 <h2>Nome Embarcadora</h2>
             </div>
+        </div>
+
+        <div id="responde-viagem">
+            <p onclick="fecharRespondeviagem()">voltar para viagens</p>
+        </div>
+
+        <div id="sinistros">
+            <div class="caixa-topo-caminhoes">
+                <h1>Sinistros</h1>
+                <h2 onclick="abrirAddsinistro()">Adicionar</h2>
+            </div>
+
+            <div class="info-conteudo">
+                <h2>Natureza</h2>
+                <p>Nº do B.O:</p>
+                <p>NF:</p>
+                <p>Motorista:</p>
+            </div>
+        </div>
+
+        <div id="add-sinistro">
+            <p onclick="fecharAddsinistro()">voltar para sinistros</p>
         </div>
     </main>
 
