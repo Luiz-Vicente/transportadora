@@ -30,7 +30,7 @@
 
     <main id="conteudo">
         <div id="caminhoes">
-            <div class="caixa-topo-caminhoes">
+            <div class="caixa-topo">
                 <h1>Caminhões</h1>
                 <h2 onclick="abrirAddcaminhao()">Adicionar</h2>
             </div>
@@ -46,9 +46,11 @@
         </div>
 
         <div id="add-caminhao">
-            <p onclick="fecharAddcaminhao()">voltar pra caminhões</p>
             <form action="">
-                <h1>Adicionar caminhão</h1>
+                <div class="caixa-topo">
+                    <h1>Adicionar caminhão</h1>
+                    <h2 onclick="fecharAddcaminhao()">Voltar</h2>
+                </div>
                 <input placeholder="Placa" type="text">
                 <input placeholder="Motorista" type="text">
                 <input placeholder="CNH do motorista" type="text">
@@ -59,20 +61,21 @@
         </div>
 
         <div id="viagens">
-            <div class="caixa-topo-caminhoes">
+            <div class="caixa-topo">
                 <h1>Solicitações de viagens</h1>
-                <h2 onclick="abrirRespondeviagem()">Adicionar</h2>
             </div>
 
             <div class="info-conteudo">
-                <h2>Nome Embarcadora</h2>
+                <h2 onclick="abrirRespondeviagem()">Nome Embarcadora</h2>
             </div>
         </div>
 
         <div id="responde-viagem">
-            <p onclick="fecharRespondeviagem()">voltar para viagens</p>
             <form action="">
-                <h1>Responder viagem</h1>
+                <div class="caixa-topo">
+                    <h1>Responder viagem</h1>
+                    <h2 onclick="fecharRespondeviagem()">Voltar</h2>
+                </div>
                 <p>Qntd. de caminhões:</p>
                 <p>Local de busca:</p>
                 <p>Local de entrega:</p>
@@ -82,7 +85,7 @@
         </div>
 
         <div id="sinistros">
-            <div class="caixa-topo-caminhoes">
+            <div class="caixa-topo">
                 <h1>Sinistros</h1>
                 <h2 onclick="abrirAddsinistro()">Adicionar</h2>
             </div>
@@ -96,9 +99,11 @@
         </div>
 
         <div id="add-sinistro">
-            <p onclick="fecharAddsinistro()">voltar para sinistros</p>
             <form action="">
-                <h1>Adicionar Sinistro</h1>
+                <div class="caixa-topo">
+                    <h1>Adicionar Sinistro</h1>
+                    <h2 onclick="fecharAddsinistro()">Voltar</h2>
+                </div>
                 <input placeholder="Natureza" type="text">
                 <input placeholder="N° do B.O:" type="text">
                 <input placeholder="NF" type="text">

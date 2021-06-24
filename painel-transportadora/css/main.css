@@ -52,20 +52,6 @@ main input::placeholder {
     flex-direction: column;
 }
 
-.caixa-topo-caminhoes {
-    display: flex;
-    align-items: center;
-}
-
-.caixa-topo-caminhoes h2 {
-    font-size: 20px;
-    color: grey;
-    align-items: flex-end;
-
-    margin-left: 200px;
-    cursor: pointer;
-}
-
 #add-caminhao {
     display: none;
 }
@@ -74,6 +60,10 @@ main input::placeholder {
     display: none;
     align-items: center;
     flex-direction: column;
+}
+
+#viagens h2 {
+    cursor: pointer;
 }
 
 #responde-viagem {
@@ -110,4 +100,56 @@ input:focus {
 
 .info-conteudo p {
     margin-bottom: 5px;
+}
+
+.caixa-topo {
+    display: flex;
+    align-items: center;
+
+    margin: 20px 20px;
+}
+
+.caixa-topo h2 {
+    font-size: 20px;
+    color: grey;
+    align-items: flex-end;
+
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+
+    width: 100%;
+}
+
+form input {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+form p {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+button {
+    background-color: #1C005B;
+
+    color: #fefefe;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    height: 35px;
+    width: calc(50% + 20px);
 }
