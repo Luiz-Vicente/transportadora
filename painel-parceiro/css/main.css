@@ -53,6 +53,10 @@ input:focus {
 }
 
 .info-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
     margin-top: 15px;
     width: 90%;
     border-bottom: 3px solid #808080;
@@ -62,6 +66,7 @@ input:focus {
     font-size: 20px;
     font-weight: 900;
     margin-bottom: 10px;
+    margin-left: 15px;
 }
 
 .info-conteudo p {
@@ -84,6 +89,84 @@ input:focus {
     cursor: pointer;
 }
 
+#anuncio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-anuncio {
+    width: 70px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.rem-anuncio {
+    width: 30px;
+    height: 30px;
+}
+
+#add-anuncio {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #C4C4C4;
+    text-align: center;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+
+    width: 50%;
+    height: 150px;
+
+    transition: 0.5s;
+}
+
+#upload:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+#upload img {
+    width: 110px;
+    height: 100px;
+}
+
+#upload p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+
+    margin-top: 10px;
+}
+
+input::placeholder {
+    color: grey;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+input[type= 'file'] {
+    display: none;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -101,7 +184,6 @@ form input {
 form p {
     font-size: 20px;
     font-family: 'Lato', sans-serif;
-    text-align: start;
     margin-bottom: 20px;
     width: 50%;
 }
@@ -117,5 +199,5 @@ button {
     border-radius: 10px;
 
     height: 35px;
-    width: calc(50% + 20px);
+    width: 50%;
 }

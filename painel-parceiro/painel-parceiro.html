@@ -28,15 +28,27 @@
 
     <main id="conteudo">
         <div id="anuncio">
-            Confira o seu anúncio:
-            Imagem do anuncio -- on click=> addAnuncio
+            <h1>Confira o seu anúncio:</h1>
+            <div class="info-conteudo">
+                <img onclick="addAnuncio()" class="img-anuncio" src="./img/Design sem nome.png" alt="Anúncio">
+                <h2 onclick="addAnuncio()">Titulo do anúncio</h2>
+                <img class="rem-anuncio" src="./img/operacoes-de-calculo-menos-sinal.png" alt="Remover este anúncio">
+            </div>
         </div>
+
         <div id="add-anuncio">
-            Faça o Upload do seu anúncio
-            Enviar
-        </div>
-        <div id="rem-anuncio">
-            <img src="./" alt="Remover anúncio">
+            <div class="caixa-topo">
+                <h1>Adicionar Anúncio</h1>
+                <h2 onclick="fecharAddAnuncio()">Voltar</h2>
+            </div>
+            <form method="POST" action="./">
+                <input type="file" id="input-upload" accept="application/pdf">
+                <div id="upload">
+                    <img src="./img/upload.png" alt="" id="icone-upload">
+                    <p>Anúncio</p>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
         </div>
     </main>
 
