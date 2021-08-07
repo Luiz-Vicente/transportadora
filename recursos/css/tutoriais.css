@@ -1,0 +1,49 @@
+#tutoriais {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2222FF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 700px;
+}
+
+#tutoriais h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: #fefefe;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#tutoriais p {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #fefefe;
+}
+
+.videos-tutoriais {
+    width: 1050px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videos-tutoriais iframe {
+    border: solid 10px #fefefe;
+}
+
+.card-tutorial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}

@@ -1,4 +1,5 @@
 #duvidas {
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,10 +23,6 @@
     margin-right: 100px;
     width: 600px;
     height: 600px;
-}
-
-.faq {
-    font-family: 'Poppins', sans-serif;
 }
 
 .titulo-faq {
