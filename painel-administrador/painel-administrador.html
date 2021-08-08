@@ -31,31 +31,45 @@
 
     <main id="conteudo">
         <div id="embarcadora">
-            <h1>Embarcadoras</h1>
+            <div class="caixa-topo">
+                <h1>Embarcadoras</h1>
+                <h2 onclick="abrirCadEmbarcadora()">Cadastrar</h2>
+            </div>
             <input type="text" placeholder="Digite o nome da Embarcadora">
 
             <div class="info-conteudo">
                 <h2>Nome Embarcadora</h2>
-                <p>Telefone:</p>
                 <p>CNPJ:</p>
+                <p>Telefone:</p>
                 <p>Endereço da empresa:</p>
                 <p>Contrato Social</p>
             </div>
         </div>
+
+        <div id="cad-embarcadora">
+            <h2 onclick="fecharCadEmbarcadora()">Voltar</h2>
+        </div>
+
         <div id="transportadora">
-            <h1>Transportadoras</h1>
+            <div class="caixa-topo">
+                <h1>Transportadoras</h1>
+                <h2 onclick="abrirCadTransportadora()">Cadastrar</h2>
+            </div>
             <input type="text" placeholder="Digite o nome da Transportadora">
 
             <div class="info-conteudo">
                 <h2>Nome Transportadora</h2>
-                <p>Telefone:</p>
                 <p>CNPJ:</p>
+                <p>Telefone:</p>
                 <p>Endereço da empresa:</p>
                 <p>Contrato Social</p>
             </div>
         </div>
         <div id="autonomo">
-            <h1>Transportadores Autônomos</h1>
+            <div class="caixa-topo">
+                <h1>Transportadores Autônomos</h1>
+                <h2 onclick="abrirCadAutonomo()">Cadastrar</h2>
+            </div>
             <input type="text" placeholder="Digite o nome do Transportador Autônomo">
 
             <div class="info-conteudo">
@@ -73,14 +87,19 @@
             </div>
         </div>
         <div id="anunciante">
-            <h1>Anunciantes</h1>
+            <div class="caixa-topo">
+                <h1>Anunciantes</h1>
+                <h2 onclick="abrirCadAnunciante()">Cadastrar</h2>
+            </div>
             <input type="text" placeholder="Digite o nome do Anunciante">
 
             <div class="info-conteudo">
                 <h2>Nome Anunciante</h2>
-                <p>CNPJ</p>
-                <p>Endereço da empresa</p>
-                <p>Contrato Social</p>
+                <p>CNPJ:</p>
+                <p>Telefone:</p>
+                <p>Endereço da empresa:</p>
+                <p>Responsável pela conta:</p>
+                <p>Cargo do responsável:</p>
             </div>
         </div>
     </main>

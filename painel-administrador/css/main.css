@@ -50,7 +50,10 @@ main input::placeholder {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
 
+#cad-embarcadora {
+    display: none;
 }
 
 #transportadora {
@@ -65,7 +68,7 @@ main input::placeholder {
     flex-direction: column;
 }
 
-#parceiro {
+#anunciante {
     display: none;
     align-items: center;
     flex-direction: column;
@@ -91,4 +94,20 @@ input:focus {
 
 .info-conteudo p {
     margin-bottom: 5px;
+}
+
+.caixa-topo {
+    display: flex;
+    align-items: center;
+
+    margin: 20px 20px;
+}
+
+.caixa-topo h2 {
+    font-size: 20px;
+    color: grey;
+    align-items: flex-end;
+
+    margin-left: 200px;
+    cursor: pointer;
 }
