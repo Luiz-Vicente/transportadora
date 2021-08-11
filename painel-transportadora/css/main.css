@@ -46,6 +46,23 @@ main input::placeholder {
     font-family: 'Lato', sans-serif;
 }
 
+select {
+    color: grey;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+
+    background-color: #C4C4C4;
+    border: none;
+    border-radius: 10px;
+
+    padding-left: 20px;
+    margin-bottom: 20px;
+
+    width: 100%;
+    height: 40px;
+}
+
 #caminhoes {
     display: flex;
     align-items: center;
@@ -138,6 +155,42 @@ form p {
     text-align: start;
     margin-bottom: 20px;
     width: 50%;
+}
+
+#upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #C4C4C4;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+
+    height: 150px;
+
+    transition: 0.5s;
+}
+
+#upload:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+#upload img {
+    width: 110px;
+    height: 100px;
+}
+
+#upload p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+
+    margin-top: 10px;
 }
 
 button {

@@ -15,12 +15,6 @@ main {
     height: auto;
 }
 
-main h1 {
-    margin-bottom: 10px;
-    font-size: 40px;
-    font-weight: 900;
-}
-
 main input {
     background-color: #C4C4C4;
 
@@ -37,7 +31,7 @@ main input {
     width: 90%;
 }
 
-main input::placeholder {
+main #embarcadora input, #transportadora input, #autonomo input, #anunciante input::placeholder {
     text-align: center;
     border: none;
     color: grey;
@@ -52,14 +46,14 @@ main input::placeholder {
     flex-direction: column;
 }
 
-#cad-embarcadora {
-    display: none;
-}
-
 #transportadora {
     display: none;
     align-items: center;
     flex-direction: column;
+}
+
+#cad-transportadora {
+    display: none;
 }
 
 #autonomo {
@@ -68,10 +62,18 @@ main input::placeholder {
     flex-direction: column;
 }
 
+#cad-autonomo {
+    display: none;
+}
+
 #anunciante {
     display: none;
     align-items: center;
     flex-direction: column;
+}
+
+#cad-anunciante {
+    display: none;
 }
 
 input:focus {
@@ -97,6 +99,10 @@ input:focus {
 }
 
 .caixa-topo {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 900;
+
     display: flex;
     align-items: center;
 
