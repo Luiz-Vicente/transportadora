@@ -4,6 +4,7 @@ function abrirCaminhoes(){
     document.getElementById('sinistros').style.display = 'none';
     document.getElementById('responde-viagem').style.display = 'none';
     document.getElementById('add-sinistro').style.display = 'none';
+    document.getElementById('responde-viagem').style.display = 'none';
 }
 function abrirViagens(){
     document.getElementById('viagens').style.display = 'flex';
@@ -11,12 +12,14 @@ function abrirViagens(){
     document.getElementById('sinistros').style.display = 'none';
     document.getElementById('add-caminhao').style.display = 'none';
     document.getElementById('add-sinistro').style.display = 'none';
+    document.getElementById('responde-viagem').style.display = 'none';
 }
 function abrirSinistros(){
     document.getElementById('sinistros').style.display = 'flex';
     document.getElementById('caminhoes').style.display = 'none';
     document.getElementById('viagens').style.display = 'none';
     document.getElementById('add-caminhao').style.display = 'none';
+    document.getElementById('responde-viagem').style.display = 'none';
     document.getElementById('responde-viagem').style.display = 'none';
 }
 

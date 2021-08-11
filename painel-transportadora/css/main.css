@@ -46,6 +46,10 @@ main input::placeholder {
     font-family: 'Lato', sans-serif;
 }
 
+form input::placeholder {
+    text-align: start;
+}
+
 select {
     color: grey;
     font-size: 15px;
@@ -59,7 +63,7 @@ select {
     padding-left: 20px;
     margin-bottom: 20px;
 
-    width: 100%;
+    width: 52%;
     height: 40px;
 }
 
@@ -157,9 +161,12 @@ form p {
     width: 50%;
 }
 
+input[type= 'file'] {
+    display: none;
+}
+
 #upload {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     
@@ -170,6 +177,7 @@ form p {
     margin-bottom: 20px;
 
     height: 150px;
+    width: 52%;
 
     transition: 0.5s;
 }

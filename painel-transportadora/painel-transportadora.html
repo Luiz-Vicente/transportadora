@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <img class="botao-abrir" onclick="abrirMenu()" src="./botao-de-menu-de-tres-linhas-horizontais.png" alt="">
+        <img class="botao-abrir" onclick="abrirMenu()" src="./img/botao-de-menu-de-tres-linhas-horizontais.png" alt="">
         <h1>Transportador</h1>
     </header>
 
@@ -56,8 +56,9 @@
                 <input placeholder="Modelo" type="text">
                 <input placeholder="RENAVAM" type="number">
                 <div id="upload">
+                    <input type="file" id="input-upload" accept="application/pdf">
+                    <p>Fotos do caminhão: <br><br>Frente <br><br>Lateral <br><br>Traseira</p>
                     <img src="./img/upload.png" alt="Upload" id="icone-upload">
-                    <p>Fotos do caminhão: Frente Lateral Traseira</p>
                 </div>
                 <input placeholder="Telefone" type="number">
                 <input placeholder="CEP" type="number">
@@ -159,5 +160,6 @@
 
     <script src="./js/link.js"></script>
     <script src="./js/pag.js"></script>
+    <script src="./js/upload.js"></script>
 </body>
 </html>
