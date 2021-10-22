@@ -21,20 +21,61 @@
     <nav id="menu">
         <h1 onclick="fecharMenu()">- Fechar</h1>
         <ul>
-            <li><h2 onclick="abrirCaminhoes()">Viagens</h2></li>
-            <li><h2 onclick="abrirViagens()">Caminhão</h2></li>
-            <li><h2 onclick="abrirSinistros()">Ajudante</h2></li>
-            <li><h2 onclick="abrirSinistros()">Minha conta</h2></li>
+            <li><h2 onclick="abrirViagens()">Viagens</h2></li>
+            <li><h2 onclick="abrirDadosCaminhao()">Caminhão</h2></li>
+            <li><h2 onclick="abrirDadosAjudante()">Ajudante</h2></li>
+            <li><h2 onclick="abrirMeusDados()">Minha conta</h2></li>
         </ul>
         <a href="">Sair</a>
     </nav>
 
     <main id="conteudo">
-        <div viagens>
-            
-
+        <div id="viagens">
+            <h1>Pedidos de viagem</h1>
+            <h2>Nome da embarcadora</h2>
+            <div class="caixa">
+                <p>Qntd. de caminhões:</p>
+                <p>Endereço de busca:</p>
+                <p>Endereço de entrega:</p>
+            </div>
+            <button>Terminei a entrega</button>
+        </div>
+        <div id="dados-caminhao">
+            <h1>Dados do caminhão</h1>
+            <div class="caixa">
+                <p>Placa:</p>
+                <p>Modelo:</p>
+                <p>Cor:</p>
+            </div>
+            <button>Ver foto cadastrada</button>
+        </div>
+        <div id="dados-ajudante">
+            <h1>Dados do ajudante</h1>
+            <div class="caixa">
+                <p>Nome:</p>
+                <p>Endereço:</p>
+                <p>CPF:</p>
+                <p>Telefone:</p>
+            </div>
+            <button>Ver foto cadastrada</button>
+            <button>Editar</button>
+        </div>
+        <div id="dados-transp-autonomo">
+            <h1>Meus dados</h1>
+            <div class="caixa">
+                <p>Nome:</p>
+                <p>Endereço:</p>
+                <p>CPF:</p>
+                <p>Telefone:</p>
+                <p>CNH:</p>
+                <p>Data de emissão:</p>
+                <p>Validade:</p>
+            </div>
+            <button>Ver foto da CNH</button>
+            <button>Editar</button>
         </div>
     </main>
+    
 
     <script src="./js/link.js"></script>
     <script src="./js/pag.js"></script>

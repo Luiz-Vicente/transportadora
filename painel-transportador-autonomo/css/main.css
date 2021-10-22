@@ -67,38 +67,46 @@ select {
     height: 40px;
 }
 
-#caminhoes {
+#viagens{
     display: flex;
-    align-items: center;
     flex-direction: column;
-}
-
-#add-caminhao {
-    display: none;
-}
-
-#viagens {
-    display: none;
     align-items: center;
+}
+
+#dados-caminhao{
+    display: none;
     flex-direction: column;
-}
-
-#viagens h2 {
-    cursor: pointer;
-}
-
-#responde-viagem {
-    display: none;
-}
-
-#sinistros {
-    display: none;
     align-items: center;
-    flex-direction: column;
 }
 
-#add-sinistro {
+#dados-ajudante{
     display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dados-transp-autonomo{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+    color: grey;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 50%;
+    margin: 10px 0px;
 }
 
 input:focus {
@@ -213,4 +221,6 @@ button {
 
     height: 35px;
     width: calc(50% + 20px);
+    cursor: pointer;
+    margin-bottom: 10px;
 }
