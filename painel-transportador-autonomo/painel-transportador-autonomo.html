@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportador autônomo</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <img class="botao-abrir" onclick="abrirMenu()" src="./img/botao-de-menu-de-tres-linhas-horizontais.png" alt="">
+        <h1>Transportador</h1>
+    </header>
+
+    <nav id="menu">
+        <h1 onclick="fecharMenu()">- Fechar</h1>
+        <ul>
+            <li><h2 onclick="abrirCaminhoes()">Viagens</h2></li>
+            <li><h2 onclick="abrirViagens()">Caminhão</h2></li>
+            <li><h2 onclick="abrirSinistros()">Ajudante</h2></li>
+            <li><h2 onclick="abrirSinistros()">Minha conta</h2></li>
+        </ul>
+        <a href="">Sair</a>
+    </nav>
+
+    <main id="conteudo">
+        <div viagens>
+            
+
+        </div>
+    </main>
+
+    <script src="./js/link.js"></script>
+    <script src="./js/pag.js"></script>
+    <script src="./js/upload.js"></script>
+</body>
+</html>
